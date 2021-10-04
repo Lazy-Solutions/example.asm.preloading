@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed0f1fcb14f10114ca58b525ad780b5b, type: 3}
+  m_Name: Preloading
+  m_EditorClassIdentifier: 
+  m_collections:
+  - {fileID: 11400000, guid: 1284b32ad9b131c45b4f7719da7b745c, type: 2}
+  m_loadingScreen: 
+  m_splashScreen: 
+  m_createCameraForSplashScreen: 1
+  m_useDefaultPauseScreen: 1
+  m_enableCrossSceneReferences: 1
+  m_standalone:
+  - 
+  m_startupLoadingScreen: Assets/AdvancedSceneManager/System/Defaults/Fade Loading
+    Screen.unity
+  m_backgroundLoadingPriority: 1
+  m_enableChangingBackgroundLoadingPriority: 0
+  tagDefinitions:
+  - name: Default
+    label: 
+    id: Default
+    color: {r: 0, g: 1, b: 0, a: 1}
+    closeBehavior: 0
+    openBehavior: 0
+  - name: Persistent
+    label: P
+    id: Persistent
+    color: {r: 0, g: 0, b: 1, a: 1}
+    closeBehavior: 2
+    openBehavior: 0
+  - name: DoNotOpen
+    label: 
+    id: DoNotOpen
+    color: {r: 0, g: 0, b: 0, a: 0}
+    closeBehavior: 0
+    openBehavior: 1
+  m_tags:
+    m_throwOnDeserializeWhenKeyValueMismatch: 1
+    keys:
+    - Assets/Tutorial-RoomLoading/Scenes/Globals.unity
+    - Assets/Tutorial-RoomLoading/Scenes/Room_01.unity
+    - Assets/Plugins/AdvancedSceneManagerAddons/example.asm.preloading/Scenes/Globals.unity
+    - Assets/Plugins/AdvancedSceneManagerAddons/example.asm.preloading/Scenes/Room_01.unity
+    - Assets/Plugins/AdvancedSceneManagerAddons/example.asm.preloading/Scenes/Room_02.unity
+    - Assets/Plugins/AdvancedSceneManagerAddons/example.asm.preloading/Scenes/Room_03.unity
+    - Assets/Example/Scenes/Room_01.unity
+    - Assets/Example/Scenes/Room_02.unity
+    - Assets/Example/Scenes/Room_03.unity
+    values:
+    - Default
+    - Default
+    - Default
+    - Default
+    - DoNotOpen
+    - DoNotOpen
+    - Default
+    - DoNotOpen
+    - DoNotOpen
