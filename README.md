@@ -1,5 +1,5 @@
-# [Name] example
-An example for Advanced Scene Manager that shows how to make a [quick description].
+# Preloading example
+An example for Advanced Scene Manager that shows how to setup preloading.
 
 Usage:
 1. Clone
