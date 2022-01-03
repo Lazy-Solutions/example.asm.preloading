@@ -9,7 +9,6 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         controller = GetComponent<CharacterController>();
-        AdvancedSceneManager.Utility.SceneOverviewUI.Open();
     }
 
     // Update is called once per frame

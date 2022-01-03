@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Settings/AdvancedSceneManager.unity
+    guid: 9c48636a3663843499cba339d219d36d
+  - enabled: 1
     path: Assets/Example/Scenes/Globals.unity
     guid: 524faf7a5b6e2274dbb6092a80962413
   - enabled: 1
@@ -17,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Example/Scenes/Room_03.unity
     guid: 6d5ae7aed96c05f47a4a058cdc71d0be
+  - enabled: 1
+    path: Assets/AdvancedSceneManager/System/Defaults/Fade Loading Screen.unity
+    guid: cbffd398304640d4ab3cb4e7f79b7bdf
   m_configObjects: {}

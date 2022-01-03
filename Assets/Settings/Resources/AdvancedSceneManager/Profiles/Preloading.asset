@@ -21,7 +21,7 @@ MonoBehaviour:
   m_enableCrossSceneReferences: 1
   m_standalone:
   - 
-  - 
+  - Assets/AdvancedSceneManager/System/Defaults/Fade Loading Screen.unity
   m_startupLoadingScreen: Assets/AdvancedSceneManager/System/Defaults/Fade Loading
     Screen.unity
   m_backgroundLoadingPriority: 1
