@@ -20,8 +20,18 @@ MonoBehaviour:
   m_loadingScreenUsage: 1
   m_loadingScreen: 
   m_activeScene: 
-  m_openAtStart: 0
   m_startupOption: 1
   m_loadingPriority: -2
   m_extraData: {fileID: 0}
+  m_isIncluded: 1
+  m_tags:
+    m_throw: 1
+    keys:
+    - Assets/Example/Scenes/Room_01.unity
+    - Assets/Example/Scenes/Room_02.unity
+    - Assets/Example/Scenes/Room_03.unity
+    values:
+    - Default
+    - DoNotOpen
+    - DoNotOpen
   m_title: Gameplay

@@ -82,13 +82,6 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
-    "plugin.asm.package-manager": {
-      "version": "https://github.com/Lazy-Solutions/plugin.asm.package-manager.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "13f4a70bcabcaeaf6b8842fc8fe9dac6795d824f"
-    },
     "utility.lazy.coroutines": {
       "version": "https://github.com/Lazy-Solutions/Unity.CoroutineUtility.git#asm",
       "depth": 0,
