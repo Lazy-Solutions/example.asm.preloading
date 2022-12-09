@@ -1,4 +1,4 @@
-﻿#if UNITY_EDITOR && !ASM
+﻿#if UNITY_EDITOR && !ADVANCED_SCENE_MANAGER
 
 using UnityEditor;
 using UnityEngine;
