@@ -43,8 +43,8 @@ MonoBehaviour:
     - DoNotOpen
   m_createCameraDuringStartup: 1
   m_unloadUnusedAssetsForStandalone: 1
-  m_checkForDuplicateSceneOperations: 1
-  m_preventSpammingEventMethods: 1
+  m_checkForDuplicateSceneOperations: 0
+  m_preventSpammingEventMethods: 0
   m_spamCheckCooldown: 0.5
   m_dynamicCollections:
   - title: 

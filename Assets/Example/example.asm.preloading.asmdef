@@ -1,5 +1,6 @@
 {
     "name": "example.asm.preloading",
+    "rootNamespace": "",
     "references": [
         "GUID:2c6f01f5d27984343bd2e98e1116e8fd",
         "GUID:431c2c8c352b87441a5d5312d0b3c500",
@@ -12,7 +13,7 @@
     "precompiledReferences": [],
     "autoReferenced": true,
     "defineConstraints": [
-        "ASM"
+        "ADVANCED_SCENE_MANAGER"
     ],
     "versionDefines": [],
     "noEngineReferences": false

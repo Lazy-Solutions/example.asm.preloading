@@ -1,9 +1,8 @@
-﻿using AdvancedSceneManager;
+﻿using System;
+using System.Collections;
 using AdvancedSceneManager.Models;
 using AdvancedSceneManager.Utility;
 using Lazy.Utility;
-using System;
-using System.Collections;
 using UnityEngine;
 
 public class Door_LevelLoader : MonoBehaviour
@@ -28,8 +27,7 @@ public class Door_LevelLoader : MonoBehaviour
     {
         //Check if scene is already open, or is preloaded already,
         //if not, then we'll start Preload coroutine.
-        var isOpen = SceneManager.utility.IsOpen(SceneToLoad);
-        if (!isOpen && !isOpen.isPreloaded)
+        if (SceneToLoad && SceneToLoad.state != SceneState.Preloaded)
             Preloader.Preload(SceneToLoad).StartCoroutine();
     }
 

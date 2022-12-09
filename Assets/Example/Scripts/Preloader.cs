@@ -1,8 +1,8 @@
-﻿using AdvancedSceneManager;
+﻿using System.Collections;
+using System.Collections.Generic;
+using AdvancedSceneManager;
 using AdvancedSceneManager.Models;
 using AdvancedSceneManager.Utility;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Preloader : MonoBehaviour
