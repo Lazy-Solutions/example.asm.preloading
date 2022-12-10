@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections;
-using AdvancedSceneManager.Core.Actions;
 using AdvancedSceneManager.Models;
 using Lazy.Utility;
 using UnityEngine;
@@ -32,7 +31,6 @@ public class Door_LevelLoader : MonoBehaviour
         // In this loop we make sure that the scene is preloaded and ready to be activated before opening the door.
         if (waiting && isInTrigger)
         {
-            // The LoadStates are states you make yourself and is not handled by ASM
             // Here we check if its Loaded and ready to be enabled.
             // this is double checked with preloader, so we dont spam finishload.
             if (Preloader.CurrentScene.state == SceneState.Preloaded)
