@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using AdvancedSceneManager.Models;
+using AdvancedSceneManager.Models.Enums;
 using Lazy.Utility;
 using UnityEngine;
 
@@ -13,6 +14,7 @@ public class Door_LevelLoader : MonoBehaviour
     //Called from TriggerEnterEvent component found on Doors
     public void OnPreloadTriggerEnter()
     {
+        Debug.Log(SceneToLoad);
         //Check if scene is already open, or is preloaded already,
         //if not, then we'll start Preload coroutine.
         if (SceneToLoad && SceneToLoad.state == SceneState.NotOpen)
@@ -33,11 +35,11 @@ public class Door_LevelLoader : MonoBehaviour
         {
             // Here we check if its Loaded and ready to be enabled.
             // this is double checked with preloader, so we dont spam finishload.
-            if (Preloader.CurrentScene.state == SceneState.Preloaded)
+            if (Preloader.IsReady)
             {
                 Preloader.FinishLoad();
             }
-            else if (Preloader.CurrentScene.state == SceneState.Open)
+            else if (SceneToLoad.state == SceneState.Open)
             {
                 // The scene is open, we can go ahead and open the door.
                 OpenDoor();

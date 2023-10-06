@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7254997773866117912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bd3886436e609044aafef03c8894287, type: 3}
+  m_Name: example - Startup (persistent)
+  m_EditorClassIdentifier: 
+  m_id: 3xiys3a2.rhq
+  m_title: Startup (persistent)
+  m_description: 
+  m_scenes:
+  - {fileID: 11400000, guid: fdcbfe2e3b2c31b4a91f762bd6b9c26d, type: 2}
+  - {fileID: 11400000, guid: a1a3161429556b44ebc42706616d7d87, type: 2}
+  - {fileID: 11400000, guid: 8d1a72e14b5ed6e42ba965db510eb57e, type: 2}
+  - {fileID: 11400000, guid: 3c19da147a8cece4d8888fa9638114a0, type: 2}
+  m_prefix: 'example - '
+  m_loadingScreenUsage: 1
+  m_loadingScreen: {fileID: 0}
+  m_activeScene: {fileID: 11400000, guid: fdcbfe2e3b2c31b4a91f762bd6b9c26d, type: 2}
+  hasSetDefaultActiveScene: 0
+  m_unloadUnusedAssets: 1
+  m_openAsPersistent: 1
+  m_openAsDisabled: 0
+  m_extraData: {fileID: 0}
+  m_startupOption: 1
+  m_loadingPriority: -2
+  m_isIncluded: 1
+  m_isLocked: 0
+  m_lockMessage: 
+  m_scenesThatShouldNotAutomaticallyOpen:
+  - {fileID: 11400000, guid: 1a3a4833dbea32547afc7d8653e4b25d, type: 2}
+  - {fileID: 11400000, guid: 123517371c908594a89946815dfc2cde, type: 2}
+  - {fileID: 11400000, guid: 8d1a72e14b5ed6e42ba965db510eb57e, type: 2}
+  - {fileID: 11400000, guid: 3c19da147a8cece4d8888fa9638114a0, type: 2}
+  m_binding:
+    m_buttons: []
+    m_openCollectionAsAdditive: 0
+    m_interactionType: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed0f1fcb14f10114ca58b525ad780b5b, type: 3}
+  m_Name: example
+  m_EditorClassIdentifier: 
+  m_id: 7m895fhc.vgn
+  m_startupScene: {fileID: 0}
+  m_loadingScreen: {fileID: 11400000, guid: 85b8af7301f5edf4cb68118c1231d566, type: 2}
+  m_splashScreen: {fileID: 11400000, guid: 5d59e3b9799c88a4e900372ed368f48c, type: 2}
+  m_startupLoadingScreen: {fileID: 11400000, guid: 85b8af7301f5edf4cb68118c1231d566,
+    type: 2}
+  m_backgroundLoadingPriority: 1
+  m_enableChangingBackgroundLoadingPriority: 0
+  m_createCameraDuringStartup: 0
+  m_unloadUnusedAssetsForStandalone: 1
+  m_collections:
+  - {fileID: -7254997773866117912}
+  m_dynamicCollections:
+  - m_id: f/PSDtnoG0yJHZJGUtuXrQ
+    m_path: Assets/AdvancedSceneManager/Defaults
+    m_title: ASM Defaults
+    m_description: 'These are scenes that ASM provides out-of-the-box as a convenience,
+      these are listed here to make sure they are included in build by default.
+
+
+      If
+      you aren''t using any of these, you may remove this dynamic collection.'
+    m_cachedPaths:
+    - Assets/AdvancedSceneManager/Defaults/Loading Screen/Fade/FadeLoadingScreen.unity
+    - Assets/AdvancedSceneManager/Defaults/Loading Screen/IconBounce/IconBounceLoadingScreen.unity
+    - Assets/AdvancedSceneManager/Defaults/Loading Screen/PressAnyButton/PressAnyButtonLoadingScreen.unity
+    - Assets/AdvancedSceneManager/Defaults/Loading Screen/ProgressBar/ProgressBarLoadingScreen.unity
+    - Assets/AdvancedSceneManager/Defaults/Loading Screen/Quote/QuoteLoadingScreen.unity
+    - Assets/AdvancedSceneManager/Defaults/Loading Screen/Video/VideoLoadingScreen.unity
+    - Assets/AdvancedSceneManager/Defaults/Other/DefaultPauseScreen.unity
+    - Assets/AdvancedSceneManager/Defaults/Other/InGameToolbar.unity
+    - Assets/AdvancedSceneManager/Defaults/Splash Screen/ASM_SplashScreen.unity
+  m_standaloneDynamicCollection:
+    m_id: Z3kdqi58oku1B/TwzJwpMA
+    m_scenes:
+    - {fileID: 11400000, guid: ec498922b6432e345a37a219ea81fcdb, type: 2}
+    m_sceneBindings:
+      m_throw: 1
+      m_keys: []
+      m_values: []

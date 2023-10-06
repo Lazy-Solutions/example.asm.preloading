@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using AdvancedSceneManager.Models;
 using UnityEngine;
 
 public class MouseLook : MonoBehaviour
@@ -8,7 +9,7 @@ public class MouseLook : MonoBehaviour
      * Used Brackeys controller, because we are not focusing on making these. 
      * If you want to see which one, https://www.youtube.com/watch?v=_QajrabyTJc&ab_channel=Brackeys
      */
-
+    [SerializeField] private Scene pauseScene;
 
     public float mouseSens = 100f;
     public Transform playerBody;
@@ -48,7 +49,7 @@ public class MouseLook : MonoBehaviour
     void UpdateCursor()
     {
 
-        if (AdvancedSceneManager.Utility.PauseScreenUtility.isOpen)
+        if (pauseScene.isOpen)
         {
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;

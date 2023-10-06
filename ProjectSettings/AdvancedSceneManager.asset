@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00a3dfc3979b132458a8f7f06f6b0d5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_profiles:
+  - {fileID: 11400000, guid: fa005dd3f44e41444ba1a89044795977, type: 2}
+  m_scenes:
+  - {fileID: 11400000, guid: 657ba7dc4a81ddc42a1ec79263dbbb31, type: 2}
+  - {fileID: 11400000, guid: 83b108229be1dca4796fac9d2ac50e85, type: 2}
+  - {fileID: 11400000, guid: c87aa9646fa3f7440a538ce07ff62850, type: 2}
+  - {fileID: 11400000, guid: fdcbfe2e3b2c31b4a91f762bd6b9c26d, type: 2}
+  - {fileID: 11400000, guid: a1a3161429556b44ebc42706616d7d87, type: 2}
+  - {fileID: 11400000, guid: 8d1a72e14b5ed6e42ba965db510eb57e, type: 2}
+  - {fileID: 11400000, guid: 3c19da147a8cece4d8888fa9638114a0, type: 2}
+  - {fileID: 11400000, guid: b39c2d344cdbd9c4aa21c979c5cafda0, type: 2}
+  - {fileID: 11400000, guid: f9e01cc6b1de0a241b78e9d1d19a4b06, type: 2}
+  - {fileID: 11400000, guid: d92ebe3bcbffba14faaad43ae1ce2c5e, type: 2}
+  - {fileID: 11400000, guid: 44ae5cfdda162b14081174dc87820092, type: 2}
+  - {fileID: 11400000, guid: ec498922b6432e345a37a219ea81fcdb, type: 2}
+  - {fileID: 11400000, guid: 74fb6361c63675444a3e0fac2b6ff210, type: 2}
+  m_collections:
+  - {fileID: -7254997773866117912, guid: fa005dd3f44e41444ba1a89044795977, type: 2}
+  m_collectionTemplates: []
+  m_sceneHelper: {fileID: 11400000, guid: ccdc1619da578fa44a6cb1497b5e7a05, type: 2}
+  m_fallbackScenePath: Assets/AdvancedSceneManager/ASM - Fallback scene.unity
+  m_defaultProfile: {fileID: 0}
+  m_forceProfile: {fileID: 0}
+  m_buildProfile: {fileID: 11400000, guid: fa005dd3f44e41444ba1a89044795977, type: 2}
+  m_checkForDuplicateSceneOperations: 1
+  m_preventSpammingEventMethods: 0
+  m_spamCheckCooldown: 0.5
+  m_blacklist: []
+  sceneData:
+    dict:
+      m_throw: 1
+      m_keys: []
+      m_values: []
+  m_enableCrossSceneReferences: 0
+  m_sceneImportOption: 0
+  m_pauseScreenOptions:
+    m_enableInEditor: 0
+    m_enableInDevBuild: 0
+    m_enableInNonDevBuild: 0
+  m_inGameToolbarOptions:
+    m_enableInEditor: 0
+    m_enableInDevBuild: 0
+    m_enableInNonDevBuild: 0
+  m_allowExcludingCollectionsFromBuild: 0
+  m_reverseUnloadOrderOnCollectionClose: 1
+  m_asmInfo: {fileID: 11400000, guid: ff080580623f8384b901a47e8b333a3a, type: 2}
+  m_startProps:
+    displaySplashScreen: 1
+    forceOpenAllScenesOnCollection: 0
+    fadeInDuration: 1
+    fadeOutDuration: 0
+    openCollection: {fileID: 0}
+  m_assetPath: Assets/Settings/AdvancedSceneManager
+  m_customData:
+    dict:
+      m_throw: 1
+      m_keys: []
+      m_values: []
+  m_unitySplashScreenColor: {r: 0, g: 0, b: 0, a: 1}
+  m_allowSceneLocking: 1
+  m_allowCollectionLocking: 1
+  m_openCollection: {fileID: -7254997773866117912, guid: fa005dd3f44e41444ba1a89044795977,
+    type: 2}
+  m_additiveCollections: []

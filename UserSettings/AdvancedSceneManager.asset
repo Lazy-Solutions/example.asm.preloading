@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b829205c14b3c3042ad5c47c9182f09a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_isCallbackUtilityEnabled: 0
+  m_callbackUtilityWindow: 
+  m_quickBuildPath: 
+  m_quickBuildUseProfiler: 0
+  m_lastPatchCheck:
+    m_value: 638317745603594483
+  m_patchVersion: 1.9.28
+  m_patchNotes: '
+
+
+    Addressables:
+
+    - Made scene and addressable linking a
+    lot more robust.
+
+
+    SceneOperation:
+
+    - Fixed SceneOperation not defaulting
+    to the first scene of the collection, when SceneCollection.activeScene was null.
+
+
+    Dynamic
+    Collections:
+
+    - Fixed ''\\'' wrongly being used as path separator instead
+    of ''/'', which solves an issue on mac where ASM user settings was created using
+    wrong name, and as a result, ending up outside /UserSettings/, which meant it
+    would be synced to source.
+
+
+    AssetRef:
+
+    - Fixed AssetRef re-generating
+    in batch mode.
+
+    - Fixed issue where profiles, collection and scenes (but
+    all other references were fine, strangely enough) were de-referenced from AssetRef
+    when doing a clean build.
+
+    - Fixed issue where AssetRef would re-generate
+    singletons for no reason.
+
+
+    Misc:
+
+    - Added test for clean build.
+
+    -
+    Fixed issue where startup would run twice in unity 2022 (but not 2019 for some
+    reason).
+
+    - Fixed null ref during intro wizard, when making sure profile
+    name is not duplicated.'
+  m_isTooOutOfDate: 0
+  m_activeProfile: {fileID: 11400000, guid: fa005dd3f44e41444ba1a89044795977, type: 2}
+  runStartupProcess: 0
+  m_isBuildMode: 0
+  m_startupProcessOnCollectionPlay: 1
+  m_displayCollectionPlayButton: 1
+  m_displayCollectionOpenButton: 1
+  m_displayCollectionAdditiveButton: 1
+  m_displayIncludeInBuildToggle: 0
+  m_displayToolbarPlayButton: 1
+  m_logImport: 0
+  m_logTracking: 0
+  m_logLoading: 0
+  m_logStartup: 0
+  m_logOperation: 0
+  m_logBuildScenes: 0
+  m_displaySyncedIndicator: 1
+  m_openCollectionOnSceneAssetOpen: 0
