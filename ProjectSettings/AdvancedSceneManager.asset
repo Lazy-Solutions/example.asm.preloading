@@ -25,9 +25,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: bff92060bb2f4484090ec57c0df8d58a, type: 2}
   - {fileID: 11400000, guid: 233a6e17ab2aa3a4aa8c3f6835768954, type: 2}
   - {fileID: 11400000, guid: e78dd26f47b3a69498e440ec1161422d, type: 2}
+  - {fileID: 11400000, guid: eb288cd8a66d645479cfa9954fd4683e, type: 2}
   - {fileID: 11400000, guid: bd43976eabf3dc042b4e8e207e76e489, type: 2}
   - {fileID: 11400000, guid: 749c1af786e094348ac29ea38da9db0d, type: 2}
-  - {fileID: 11400000, guid: eb288cd8a66d645479cfa9954fd4683e, type: 2}
   m_collections:
   - {fileID: -1432275896405379849, guid: fd33ff3584f36f249bd1924caeb745c1, type: 2}
   m_collectionTemplates: []
@@ -71,8 +71,8 @@ MonoBehaviour:
       m_keys: []
       m_values: []
   m_unitySplashScreenColor: {r: 0, g: 0, b: 0, a: 1}
-  m_allowSceneLocking: 0
-  m_allowCollectionLocking: 0
+  m_allowSceneLocking: 1
+  m_allowCollectionLocking: 1
   m_openCollection: {fileID: -1432275896405379849, guid: fd33ff3584f36f249bd1924caeb745c1,
     type: 2}
   m_additiveCollections: []
