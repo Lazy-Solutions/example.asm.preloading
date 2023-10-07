@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 143365c1c80370a48a4c89e0b158bf44, type: 3}
-  m_Name: Globals
+  m_Name: Room_02
   m_EditorClassIdentifier: 
-  m_id: 11zc4bd4.005
-  m_sceneAsset: {fileID: 102900000, guid: 524faf7a5b6e2274dbb6092a80962413, type: 3}
-  m_path: Assets/Example/Scenes/Globals.unity
+  m_id: oeyoysbi.eyx
+  m_sceneAsset: {fileID: 102900000, guid: 472bc0f4082c8a54db5f2fa66b63231e, type: 3}
+  m_path: Assets/Example/Scenes/Room_02.unity
   m_isLoadingScreen: 0
   m_isSplashScreen: 0
   m_keepOpenWhenCollectionsClose: 0

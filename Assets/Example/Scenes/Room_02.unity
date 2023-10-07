@@ -264,7 +264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93c1d9e26fc08974b9f643b0508fc4a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToLoad: {fileID: 11400000, guid: 3c19da147a8cece4d8888fa9638114a0, type: 2}
+  SceneToLoad: {fileID: 11400000, guid: eb288cd8a66d645479cfa9954fd4683e, type: 2}
   offset: {x: 3, y: 0, z: 0}
   stayOpenFor: 2
 --- !u!1 &305123605

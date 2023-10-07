@@ -67,7 +67,7 @@ MonoBehaviour:
     - Fixed null ref during intro wizard, when making sure profile
     name is not duplicated.'
   m_isTooOutOfDate: 0
-  m_activeProfile: {fileID: 11400000, guid: fa005dd3f44e41444ba1a89044795977, type: 2}
+  m_activeProfile: {fileID: 11400000, guid: fd33ff3584f36f249bd1924caeb745c1, type: 2}
   runStartupProcess: 0
   m_isBuildMode: 0
   m_startupProcessOnCollectionPlay: 1

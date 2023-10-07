@@ -13,29 +13,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_profiles:
-  - {fileID: 11400000, guid: fa005dd3f44e41444ba1a89044795977, type: 2}
+  - {fileID: 11400000, guid: fd33ff3584f36f249bd1924caeb745c1, type: 2}
   m_scenes:
   - {fileID: 11400000, guid: 657ba7dc4a81ddc42a1ec79263dbbb31, type: 2}
   - {fileID: 11400000, guid: 83b108229be1dca4796fac9d2ac50e85, type: 2}
   - {fileID: 11400000, guid: c87aa9646fa3f7440a538ce07ff62850, type: 2}
-  - {fileID: 11400000, guid: fdcbfe2e3b2c31b4a91f762bd6b9c26d, type: 2}
-  - {fileID: 11400000, guid: a1a3161429556b44ebc42706616d7d87, type: 2}
-  - {fileID: 11400000, guid: 8d1a72e14b5ed6e42ba965db510eb57e, type: 2}
-  - {fileID: 11400000, guid: 3c19da147a8cece4d8888fa9638114a0, type: 2}
-  - {fileID: 11400000, guid: b39c2d344cdbd9c4aa21c979c5cafda0, type: 2}
-  - {fileID: 11400000, guid: f9e01cc6b1de0a241b78e9d1d19a4b06, type: 2}
-  - {fileID: 11400000, guid: d92ebe3bcbffba14faaad43ae1ce2c5e, type: 2}
-  - {fileID: 11400000, guid: 44ae5cfdda162b14081174dc87820092, type: 2}
-  - {fileID: 11400000, guid: ec498922b6432e345a37a219ea81fcdb, type: 2}
-  - {fileID: 11400000, guid: 74fb6361c63675444a3e0fac2b6ff210, type: 2}
+  - {fileID: 11400000, guid: f079e2f3357f08e4090733008284fea5, type: 2}
+  - {fileID: 11400000, guid: 8fc0371d451df594fb8d37227e3cf856, type: 2}
+  - {fileID: 11400000, guid: b2103fc68aa76264f9fecd6322d5fabe, type: 2}
+  - {fileID: 11400000, guid: 94bd0d1dd271b6448bbc713bc425c4d9, type: 2}
+  - {fileID: 11400000, guid: bff92060bb2f4484090ec57c0df8d58a, type: 2}
+  - {fileID: 11400000, guid: 233a6e17ab2aa3a4aa8c3f6835768954, type: 2}
+  - {fileID: 11400000, guid: e78dd26f47b3a69498e440ec1161422d, type: 2}
+  - {fileID: 11400000, guid: bd43976eabf3dc042b4e8e207e76e489, type: 2}
+  - {fileID: 11400000, guid: 749c1af786e094348ac29ea38da9db0d, type: 2}
+  - {fileID: 11400000, guid: eb288cd8a66d645479cfa9954fd4683e, type: 2}
   m_collections:
-  - {fileID: -7254997773866117912, guid: fa005dd3f44e41444ba1a89044795977, type: 2}
+  - {fileID: -1432275896405379849, guid: fd33ff3584f36f249bd1924caeb745c1, type: 2}
   m_collectionTemplates: []
   m_sceneHelper: {fileID: 11400000, guid: ccdc1619da578fa44a6cb1497b5e7a05, type: 2}
   m_fallbackScenePath: Assets/AdvancedSceneManager/ASM - Fallback scene.unity
   m_defaultProfile: {fileID: 0}
   m_forceProfile: {fileID: 0}
-  m_buildProfile: {fileID: 11400000, guid: fa005dd3f44e41444ba1a89044795977, type: 2}
+  m_buildProfile: {fileID: 11400000, guid: fd33ff3584f36f249bd1924caeb745c1, type: 2}
   m_checkForDuplicateSceneOperations: 1
   m_preventSpammingEventMethods: 0
   m_spamCheckCooldown: 0.5
@@ -71,8 +71,8 @@ MonoBehaviour:
       m_keys: []
       m_values: []
   m_unitySplashScreenColor: {r: 0, g: 0, b: 0, a: 1}
-  m_allowSceneLocking: 1
-  m_allowCollectionLocking: 1
-  m_openCollection: {fileID: -7254997773866117912, guid: fa005dd3f44e41444ba1a89044795977,
+  m_allowSceneLocking: 0
+  m_allowCollectionLocking: 0
+  m_openCollection: {fileID: -1432275896405379849, guid: fd33ff3584f36f249bd1924caeb745c1,
     type: 2}
   m_additiveCollections: []

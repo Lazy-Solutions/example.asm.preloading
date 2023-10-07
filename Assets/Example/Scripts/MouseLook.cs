@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using AdvancedSceneManager.Models;
+﻿using AdvancedSceneManager.Models;
 using UnityEngine;
 
 public class MouseLook : MonoBehaviour
@@ -13,7 +11,7 @@ public class MouseLook : MonoBehaviour
 
     public float mouseSens = 100f;
     public Transform playerBody;
-    
+
     float _xRotation = 0f;
 
     private void Update()
@@ -49,7 +47,7 @@ public class MouseLook : MonoBehaviour
     void UpdateCursor()
     {
 
-        if (pauseScene.isOpen)
+        if (pauseScene && pauseScene.isOpen)
         {
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
