@@ -39,4 +39,5 @@ sysinfo.txt
 
 /Assets/AdvancedSceneManager
 Assets/AdvancedSceneManager.meta
+ProjectSettings/ProjectSettings.asset
 Packages/plugin*
