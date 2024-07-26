@@ -1,9 +1,7 @@
 {
-    "name": "example.asm.preloading",
+    "name": "Example",
     "rootNamespace": "",
-    "references": [
-        "GUID:2c6f01f5d27984343bd2e98e1116e8fd"
-    ],
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
@@ -11,7 +9,8 @@
     "precompiledReferences": [],
     "autoReferenced": true,
     "defineConstraints": [
-        "ASM"
+        "!ASM",
+        "UNITY_EDITOR"
     ],
     "versionDefines": [
         {

@@ -1,8 +1,7 @@
-﻿#if UNITY_EDITOR && !ADVANCED_SCENE_MANAGER
-
-using UnityEditor;
+﻿using UnityEditor;
 using UnityEngine;
 
+[ExecuteAlways]
 static class Example
 {
 
@@ -55,4 +54,3 @@ static class Example
     }
 
 }
-#endif

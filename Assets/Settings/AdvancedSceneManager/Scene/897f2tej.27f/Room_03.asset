@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: Room_03
   m_EditorClassIdentifier: 
   m_id: 897f2tej.27f
-  m_sceneAsset: {fileID: 102900000, guid: 6d5ae7aed96c05f47a4a058cdc71d0be, type: 3}
   m_path: Assets/Example/Scenes/Room_03.unity
+  m_sceneAsset: {fileID: 102900000, guid: 6d5ae7aed96c05f47a4a058cdc71d0be, type: 3}
   m_isLoadingScreen: 0
   m_isSplashScreen: 0
   m_keepOpenWhenCollectionsClose: 0
   m_keepOpenWhenNewCollectionWouldReopen: 1
   m_openOnStartup: 0
+  m_openOnPlayMode: 0
   m_autoOpenInEditor: 0
   m_autoOpenInEditorScenes: []
   m_isLocked: 0
   m_lockMessage: 
+  m_crossSceneReferences: []
   m_sceneLoader: 

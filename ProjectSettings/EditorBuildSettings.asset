@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/AdvancedSceneManager/ASM - Fallback scene.unity
+    path: Packages/com.lazy.advanced-scene-manager/Plugin/Assets/ASM - Fallback scene.unity
     guid: 8e855e5b4282732468a517da6bb95020
   - enabled: 1
     path: Assets/Example/Scenes/Globals.unity
@@ -21,30 +21,14 @@ EditorBuildSettings:
     path: Assets/Example/Scenes/Room_03.unity
     guid: 6d5ae7aed96c05f47a4a058cdc71d0be
   - enabled: 1
-    path: Assets/AdvancedSceneManager/Defaults/Other/DefaultPauseScreen.unity
+    path: Packages/com.lazy.advanced-scene-manager/Default scenes/Pause/Pause.unity
     guid: 226e5a6f57e81cc4e81e2d464fe798b3
   - enabled: 1
-    path: Assets/AdvancedSceneManager/Defaults/Other/InGameToolbar.unity
-    guid: f7a5075cf01fb72449b4bd0b944f86a5
-  - enabled: 1
-    path: Assets/AdvancedSceneManager/Defaults/Splash Screen/ASM_SplashScreen.unity
-    guid: d8ac8f99a18230449b778006fc9a8795
-  - enabled: 1
-    path: Assets/AdvancedSceneManager/Defaults/Loading Screen/Fade/FadeLoadingScreen.unity
+    path: Packages/com.lazy.advanced-scene-manager/Default scenes/Fade/Fade.unity
     guid: cbffd398304640d4ab3cb4e7f79b7bdf
   - enabled: 1
-    path: Assets/AdvancedSceneManager/Defaults/Loading Screen/Quote/QuoteLoadingScreen.unity
-    guid: a60bdb19550b79e4780c5e21533b274f
-  - enabled: 1
-    path: Assets/AdvancedSceneManager/Defaults/Loading Screen/IconBounce/IconBounceLoadingScreen.unity
-    guid: 76635b856d46593498d486a865203344
-  - enabled: 1
-    path: Assets/AdvancedSceneManager/Defaults/Loading Screen/PressAnyButton/PressAnyButtonLoadingScreen.unity
-    guid: 0ad62d312b15063489bd01a22c89b0e8
-  - enabled: 1
-    path: Assets/AdvancedSceneManager/Defaults/Loading Screen/ProgressBar/ProgressBarLoadingScreen.unity
-    guid: 3810c2d0fb51ffb4b945d605f10782a5
-  - enabled: 1
-    path: Assets/AdvancedSceneManager/Defaults/Loading Screen/Video/VideoLoadingScreen.unity
-    guid: 23eabc53aeaf5b640a5308126ea626d3
+    path: Packages/com.lazy.advanced-scene-manager/Default scenes/Splash ASM/Splash
+      ASM.unity
+    guid: d8ac8f99a18230449b778006fc9a8795
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

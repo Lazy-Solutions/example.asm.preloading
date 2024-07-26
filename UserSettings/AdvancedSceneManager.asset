@@ -16,66 +16,8 @@ MonoBehaviour:
   m_callbackUtilityWindow: 
   m_quickBuildPath: 
   m_quickBuildUseProfiler: 0
-  m_lastPatchCheck:
-    m_value: 638317745603594483
-  m_patchVersion: 1.9.28
-  m_patchNotes: '
-
-
-    Addressables:
-
-    - Made scene and addressable linking a
-    lot more robust.
-
-
-    SceneOperation:
-
-    - Fixed SceneOperation not defaulting
-    to the first scene of the collection, when SceneCollection.activeScene was null.
-
-
-    Dynamic
-    Collections:
-
-    - Fixed ''\\'' wrongly being used as path separator instead
-    of ''/'', which solves an issue on mac where ASM user settings was created using
-    wrong name, and as a result, ending up outside /UserSettings/, which meant it
-    would be synced to source.
-
-
-    AssetRef:
-
-    - Fixed AssetRef re-generating
-    in batch mode.
-
-    - Fixed issue where profiles, collection and scenes (but
-    all other references were fine, strangely enough) were de-referenced from AssetRef
-    when doing a clean build.
-
-    - Fixed issue where AssetRef would re-generate
-    singletons for no reason.
-
-
-    Misc:
-
-    - Added test for clean build.
-
-    -
-    Fixed issue where startup would run twice in unity 2022 (but not 2019 for some
-    reason).
-
-    - Fixed null ref during intro wizard, when making sure profile
-    name is not duplicated.'
-  m_isTooOutOfDate: 0
   m_activeProfile: {fileID: 11400000, guid: fd33ff3584f36f249bd1924caeb745c1, type: 2}
-  runStartupProcess: 0
-  m_isBuildMode: 0
   m_startupProcessOnCollectionPlay: 1
-  m_displayCollectionPlayButton: 1
-  m_displayCollectionOpenButton: 1
-  m_displayCollectionAdditiveButton: 1
-  m_displayIncludeInBuildToggle: 0
-  m_displayToolbarPlayButton: 1
   m_logImport: 0
   m_logTracking: 0
   m_logLoading: 0
@@ -83,4 +25,39 @@ MonoBehaviour:
   m_logOperation: 0
   m_logBuildScenes: 0
   m_displaySyncedIndicator: 1
+  m_openCollection: {fileID: -1432275896405379849, guid: fd33ff3584f36f249bd1924caeb745c1,
+    type: 2}
+  m_additiveCollections: []
+  m_pinnedOverlayCollections: []
+  m_alwaysSaveScenesWhenEnteringPlayMode: 0
+  m_displayProfileButton: 1
+  m_displayHierarchyIndicators: 1
+  m_displaySceneHelperButton: 1
+  m_displayCollectionPlayButton: 1
+  m_displayCollectionOpenButton: 1
+  m_displayCollectionAdditiveButton: 1
+  m_displayIncludeInBuildToggle: 0
+  m_displayOverviewButton: 1
+  m_displaySearchButton: 1
+  m_displayDevBuildButton: 0
+  m_displayProjectSettingsButton: 0
+  m_displayBuildProfilesButton: 0
+  m_displayCodeEditorButton: 0
+  m_toolbarButtonCount: 1
+  m_toolbarPlayButtonOffset: 0
+  m_toolbarButtonActions:
+    m_throw: 1
+    m_keys: 
+    m_values: []
+  m_toolbarButtonActions2:
+    m_throw: 1
+    m_keys: 
+    m_values: 
+  m_alwaysDisplaySearch: 0
+  m_hideDocsNotification: 1
+  m_expandedCollections:
+  - pOFSrnDf3UWMI0ZN4LMivg
+  m_selectedScenes: []
+  m_selectedCollections: []
+  savedSearches: []
   m_openCollectionOnSceneAssetOpen: 0
