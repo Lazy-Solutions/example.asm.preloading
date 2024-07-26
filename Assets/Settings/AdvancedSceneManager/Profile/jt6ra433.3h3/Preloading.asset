@@ -30,7 +30,7 @@ MonoBehaviour:
   m_openAsDisabled: 0
   m_extraData: {fileID: 0}
   m_startupOption: 0
-  m_loadingPriority: -2
+  m_loadingPriority: 0
   m_isIncluded: 1
   m_isLocked: 0
   m_lockMessage: 
