@@ -2,7 +2,7 @@
 using System.Collections;
 using AdvancedSceneManager.Models;
 using AdvancedSceneManager.Models.Enums;
-using Lazy.Utility;
+using AdvancedSceneManager.Utility; 
 using UnityEngine;
 
 public class Door_LevelLoader : MonoBehaviour
